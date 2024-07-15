@@ -7,6 +7,13 @@ arguments passed in.
 
 // Your code here 
 
+let catBuilder = function (name, color, array) {
+  let cat = {};
+  cat.name = name;
+  cat.color = color;
+  cat.toys = array;
+  return cat;
+}
 // console.log(catBuilder("Whiskers", "black", ["scratching-post", "yarn"]));
 // //=> { name: 'Whiskers', color: 'black', toys: ['scratching-post', 'yarn'] }
 
@@ -17,4 +24,4 @@ arguments passed in.
 
 try {
   module.exports = catBuilder;
-} catch {}
+} catch { }

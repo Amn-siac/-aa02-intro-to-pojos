@@ -6,6 +6,9 @@ passed in.
 
 // Your code here 
 
+let variableAsKey = function (object, string) {
+  return object[string];
+}
 // Example:
 // const obj = {
 //   first: "1",
@@ -19,4 +22,4 @@ passed in.
 
 try {
   module.exports = variableAsKey;
-} catch {}
+} catch { }

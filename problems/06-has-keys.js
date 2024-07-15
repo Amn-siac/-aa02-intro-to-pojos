@@ -4,7 +4,14 @@ strings. It should return true if all of the strings in the array are keys in
 the object.
 */
 
-// Your code here 
+// Your code here
+let hasKeys = function (obj, strings) {
+  for (let i = 0; i < strings.length; i++) {
+    if (Object.keys(obj).includes(strings[i]) === false)
+      return false;
+  }
+  return true;
+}
 
 // let survey = {
 //   name: 'Check',
@@ -18,4 +25,4 @@ the object.
 
 try {
   module.exports = hasKeys;
-} catch {}
+} catch { }

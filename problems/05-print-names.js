@@ -4,6 +4,13 @@ loop through all of the objects and print the "name" key from each object.
 */
 
 // Your code here 
+let printNames = (objs) => {
+  for (let i = 0; i < objs.length; i++) {
+    console.log(objs[i].name)
+  }
+
+
+}
 
 // Example:
 // printNames([
@@ -15,4 +22,4 @@ loop through all of the objects and print the "name" key from each object.
 
 try {
   module.exports = printNames;
-} catch {}
+} catch { }
